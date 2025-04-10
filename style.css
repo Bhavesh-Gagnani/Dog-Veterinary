@@ -1,0 +1,2181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Start */
+
+#navbar{
+    width: 100%;
+}
+
+.collapse ul li{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.collapse ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+.collapse ul li a:hover{
+    color: rgb(75, 75, 75);
+}
+
+#nav-input{
+    border-radius: 0%;
+    background: lightyellow;
+}
+
+#nav-btn{
+    border-radius: 0%;
+    padding: 10px;
+}
+
+#nav-icon{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+}
+
+@media(max-width: 992px) {
+    .collapse ul{
+        margin-top: 6px;
+        margin-bottom: 12px;
+        margin-left: 3px;
+    }
+}
+
+/* Navbar End */
+
+
+
+/* Hero Section 1 Start */
+
+.Hero_1-content{
+    padding-top: 8%;
+    padding-bottom: 4%;
+    background-color: rgb(255, 255, 215);
+}
+
+#Hero_1-con h1{
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+#Hero_1-con p{
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+#Hero_1-con a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#btn-1{
+    margin-right: 20px;
+}
+ 
+@media(max-width: 450px) {
+    .Hero_1-content{
+        padding-top: 22%;
+        padding-bottom: 6%;
+    }
+    #Hero_1-con h1{
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    #Hero_1-con p{
+        font-size: 14px;
+        padding-right: 32px;
+        margin-bottom: 24px;
+    }
+    #Hero_1-con a{
+        padding: 7px 14px;
+        font-size: 14px;
+    }
+    #btn-1{
+        margin-right: 14px;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_1-content{
+        padding-top: 16%;
+        padding-bottom: 6%;
+    }
+    #Hero_1-con h1{
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+    #Hero_1-con p{
+        font-size: 18px;
+        padding-right: 52px;
+        margin-bottom: 28px;
+    }
+    #Hero_1-con a{
+        padding: 10px 16px;
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 600px){
+    .Hero_1-content{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_1-content{
+        padding-top: 12%;
+        padding-bottom: 3%;
+    }
+    #Hero_1-con h1{
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    #Hero_1-con p{
+        font-size: 12px;
+        padding-right: 84px;
+        margin-bottom: 18px;
+    }
+    #Hero_1-con a{
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    #btn-1{
+        margin-right: 12px;
+    }
+}
+
+@media(min-width: 992px){
+    .Hero_1-content{
+        padding-top: 9%;
+        padding-bottom: 4%;
+    }
+    #Hero_1-con h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    #Hero_1-con p{
+        font-size: 16px;
+        padding-right: 114px;
+        margin-bottom: 28px;
+    }
+    #Hero_1-con a{
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    #btn-1{
+        margin-right: 18px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Hero_1-content{
+        padding-top: 9%;
+        padding-bottom: 5%;
+    }
+    #Hero_1-con h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    #Hero_1-con p{
+        font-size: 18px;
+        padding-right: 150px;
+        margin-bottom: 32px;
+    }
+    #Hero_1-con a{
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1400px){
+    #Hero_1-con h1{
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+    #Hero_1-con p{
+        font-size: 22px;
+        padding-right: 160px;
+        margin-bottom: 40px;
+    }
+    #Hero_1-con a{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    #btn-1{
+        margin-right: 24px;
+    }
+}
+
+/* Hero Section 1 End */
+
+
+
+/* Hero Section 2 Start */
+
+.Hero_2-content{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: rgb(255, 255, 215);
+}
+
+#Hero_2-con h1{
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+#Hero_2-con p{
+    font-size: 22px;
+    padding-right: 48px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#Hero_2-con a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+@media(max-width: 450px) {
+    .Hero_2-content{
+        padding-top: 7%;
+    }
+    #Hero_2-con h1{
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 14px;
+    }
+    #Hero_2-con p{
+        font-size: 14px;
+        padding-right: 32px;
+        margin-bottom: 24px;
+    }
+    #Hero_2-con a{
+        padding: 7px 14px;
+        font-size: 14px;
+        margin-bottom: 7%;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_2-content{
+        padding-top: 6%;
+    }
+    #Hero_2-con h1{
+        font-size: 40px;
+        margin-top: 32px;
+        margin-bottom: 18px;
+    }
+    #Hero_2-con p{
+        font-size: 18px;
+        padding-right: 52px;
+        margin-bottom: 28px;
+    }
+    #Hero_2-con a{
+        padding: 10px 16px;
+        font-size: 18px;
+    }
+    #Hero_2-con a{
+        margin-bottom: 5%;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_2-content{
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    #Hero_2-con h1{
+        font-size: 30px;
+        margin-top: auto;
+        margin-bottom: 12px;
+    }
+    #Hero_2-con p{
+        font-size: 12px;
+        padding-right: 28px;
+        margin-bottom: 18px;
+    }
+    #Hero_2-con a{
+        padding: 6px 12px;
+        font-size: 12px;
+        margin-bottom: auto;
+    }
+}
+
+@media(min-width: 992px){
+    .Hero_2-content{
+        padding-top: 4%;
+        padding-bottom: 5%;
+    }
+    #Hero_2-con h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    #Hero_2-con p{
+        font-size: 16px;
+        padding-right: 36px;
+        margin-bottom: 28px;
+    }
+    #Hero_2-con a{
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 1200px){
+    #Hero_2-con h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    #Hero_2-con p{
+        font-size: 18px;
+        padding-right: 44px;
+        margin-bottom: 32px;
+    }
+    #Hero_2-con a{
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1400px){
+    #Hero_2-con h1{
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+    #Hero_2-con p{
+        font-size: 22px;
+        padding-right: 48px;
+        margin-bottom: 40px;
+    }
+    #Hero_2-con a{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
+
+/* Hero Section 2 End */
+
+
+
+/* Hero Section 3 Start */
+
+.Hero_3-content{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background: rgb(255, 255, 215);
+}
+
+#Hero_3-con h1{
+    font-size: 52px;
+    margin-bottom: 24px;
+}
+
+#Hero_3-con p{
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+#Hero_3-con a{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+  
+@media(max-width: 450px){
+    .Hero_3-content{
+        padding-top: 8%;
+        padding-bottom: 12%;
+    }
+    #Hero_3-con h1{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    #Hero_3-con p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #Hero_3-con a{
+        font-size: 14px;
+        padding: 7px 14px;
+        margin-bottom: 10%;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_3-content{
+        padding-top: 7%;
+        padding-bottom: 12%;
+    }
+    #Hero_3-con h1{
+        font-size: 48px;
+        margin-bottom: 26px;
+    }
+    #Hero_3-con p{
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    #Hero_3-con a{
+        margin-bottom: 9%;
+    }
+}
+
+
+@media(min-width: 600px){
+    .Hero_3-content{
+        padding-bottom: 10%;
+    }
+}
+
+
+@media(min-width: 768px){
+    .Hero_3-content{
+        padding: 5% 0;
+    }
+    #Hero_3-con h1{
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    #Hero_3-con p{
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    #Hero_3-con a{
+        font-size: 12px;
+        padding: 6px 12px;
+        margin-bottom: auto;
+    }
+}
+
+@media(min-width: 992px){
+    #Hero_3-con h1{
+        font-size: 38px;
+        margin-bottom: 18px;
+    }
+    #Hero_3-con p{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    #Hero_3-con a{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media(min-width: 1200px){
+    #Hero_3-con h1{
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+    #Hero_3-con p{
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    #Hero_3-con a{
+        font-size: 18px;
+        padding: 9px 18px;
+    }
+}
+
+@media(min-width: 1400px){
+    #Hero_3-con h1{
+        font-size: 52px;
+        margin-bottom: 26px;
+    }
+    #Hero_3-con p{
+        margin-bottom: 38px;
+    }
+    #Hero_3-con a{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+
+/* Hero Section 3 End */
+
+
+/* Hero Section 4 Start */
+
+.Hero_4-content{
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.Hero_4-con h1{
+    font-size: 64px;
+}
+
+.Hero_4-con p{
+    width: 50%;
+    font-size: 22px;
+}
+
+.Hero_4-content .row{
+    margin-top: 5%;
+}
+
+.Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+    font-size: 52px;
+    margin-top: 24px;
+}
+
+.Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+    text-decoration: line-through;
+    margin-right: 24px;
+}
+
+.Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+    margin-top: 14px;
+    padding: 5px 24px;
+    font-size: 24px;
+}
+  
+@media(max-width: 450px){
+    .Hero_4-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_4-con h1{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .Hero_4-con p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .Hero_4-content .row{
+        margin-top: 12%;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        margin-top: 12px;
+        font-size: 32px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 14px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button{
+        font-size: 18px;
+        padding: 6px 32px 8px;
+        margin-top: 6px;
+        margin-bottom: 14%;
+    }
+    .Hero_4-3 button{
+        font-size: 18px;
+        padding: 6px 32px 8px;
+        margin-top: 6px;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_4-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_4-con h1{
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    .Hero_4-con p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .Hero_4-content .row{
+        margin-top: 10%;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        margin-top: 16px;
+        font-size: 40px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 18px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button{
+        font-size: 24px;
+        padding: 8px 40px 10px;
+        margin-top: 12px;
+        margin-bottom: 12%;
+    }
+    .Hero_4-3 button{
+        font-size: 24px;
+        padding: 8px 40px 10px;
+        margin-top: 12px;
+    }
+}
+
+@media(min-width: 600px){
+    .Hero_4-con h1{
+        font-size: 48px;
+    }
+    .Hero_4-con p{
+        font-size: 20px;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        margin-top: 16px;
+        font-size: 52px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 24px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+        font-size: 28px;
+        padding: 9px 48px 12px;
+        margin-top: 16px;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_4-content{
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .Hero_4-con h1{
+        font-size: 30px;
+    }
+    .Hero_4-con p{
+        width: 50%;
+        font-size: 12px;
+    }
+    .Hero_4-content .row{
+        margin-top: 4%;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        font-size: 28px;
+        margin-top: 12px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 12px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+        font-size: 16px;
+        margin-top: 3px;
+        margin-bottom: auto;
+        padding: 5px 30px 7px;
+    }
+}
+
+@media(min-width: 992px){
+    .Hero_4-con h1{
+        font-size: 38px;
+    }
+    .Hero_4-con p{
+        font-size: 16px;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        font-size: 32px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 12px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+        font-size: 20px;
+        margin-top: 6px;
+        padding: 5px 36px 10px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Hero_4-con h1{
+        font-size: 48px;
+    }
+    .Hero_4-con p{
+        font-size: 18px;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        font-size: 40px;
+        margin-top: 18px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 18px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+        font-size: 24px;
+        margin-top: 8px;
+        padding: 7px 40px 10px;
+    }
+}
+
+@media(min-width: 1400px){
+    .Hero_4-con h1{
+        font-size: 52px;
+    }
+    .Hero_4-con p{
+        font-size: 20px;
+    }
+    .Hero_4-1 h1, .Hero_4-2 h1, .Hero_4-3 h1{
+        font-size: 48px;
+        margin-top: 20px;
+    }
+    .Hero_4-1 h1 span, .Hero_4-2 h1 span, .Hero_4-3 h1 span{
+        margin-right: 20px;
+    }
+    .Hero_4-1 button, .Hero_4-2 button, .Hero_4-3 button{
+        font-size: 26px;
+        margin-top: 10px;
+        padding: 8px 48px 12px;
+    }
+}
+
+/* Hero Section 4 End */
+
+
+/* Hero Section 5 Start */
+
+.Hero_5-content{
+    background-color: rgb(255, 255, 215);
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.Hero_5-con h1{
+    font-size: 56px;
+    margin-bottom: 12px;
+}
+
+.Hero_5-con p{
+    width: 50%;
+    font-size: 22px;
+}
+
+.Hero_5-content .row{
+    margin-top: 5%;
+}
+
+.Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+    font-size: 44px;
+}
+
+#icon-1{
+    color: #d62976;
+    margin-right: 20px;
+}
+
+#icon-2{
+    color: #3b5998;
+    margin-right: 20px;
+}
+
+#icon-3{
+    color: #00acee;
+    margin-right: 20px;
+}
+
+#icon-4{
+    color: #128C7E;
+}
+
+@media(max-width: 450px){
+    .Hero_5-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_5-con h1{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .Hero_5-con p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .Hero_5-content .row{
+        margin-top: 12%;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i{
+        font-size: 36px;
+        margin-bottom: 14%;
+    }
+    .Hero_5-3 .Hero_5-icon a i{
+        font-size: 36px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 18px;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_5-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_5-con h1{
+        font-size: 52px;
+        margin-bottom: 12px;
+    }
+    .Hero_5-con p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .Hero_5-content .row{
+        margin-top: 12%;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 48px;
+        margin-top: 28px;
+        margin-bottom: 10px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i{
+        font-size: 56px;
+        margin-bottom: 14%;
+    }
+    .Hero_5-3 .Hero_5-icon a i{
+        font-size: 56px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 24px;
+    }
+}
+
+@media(min-width: 600px){
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        margin-bottom: 30px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+        font-size: 58px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 26px;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_5-content{
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .Hero_5-con h1{
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    .Hero_5-con p{
+        width: 50%;
+        font-size: 12px;
+    }
+    .Hero_5-content .row{
+        margin-top: 4%;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 22px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+        font-size: 26px;
+        margin-bottom: auto;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 8px;
+    }
+}
+
+@media(min-width: 992px){
+    .Hero_5-con h1{
+        font-size: 38px;
+    }
+    .Hero_5-con p{
+        font-size: 16px;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 30px;
+        margin-top: 14px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 18px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+        font-size: 36px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 12px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Hero_5-con h1{
+        font-size: 46px;
+    }
+    .Hero_5-con p{
+        font-size: 20px;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 34px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+        font-size: 40px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 16px;
+    }
+}
+
+@media(min-width: 1400px){
+    .Hero_5-con h1{
+        font-size: 52px;
+    }
+    .Hero_5-con p{
+        font-size: 22px;
+    }
+    .Hero_5-1 h1, .Hero_5-2 h1, .Hero_5-3 h1{
+        font-size: 38px;
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .Hero_5-1 p, .Hero_5-2 p, .Hero_5-3 p{
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+    .Hero_5-1 .Hero_5-icon a i, .Hero_5-2 .Hero_5-icon a i, .Hero_5-3 .Hero_5-icon a i{
+        font-size: 48px;
+    }
+    #icon-1, #icon-2, #icon-3{
+        margin-right: 20px;
+    }
+}
+
+/* Hero Section 5 End */
+
+
+/* Hero Sectiom 6 Start */
+
+.Hero_6-content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: linear-gradient(rgba(255, 193, 7,0.8),rgba(255, 193, 7,0.8)),url(Images/img-13.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#Hero_6-1, #Hero_6-2, #Hero_6-3{
+    text-align: center;
+}
+
+#Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+    font-size: 72px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+#Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+#Hero_6-1 h2, #Hero_6-2 h2, #Hero_6-3 h2{
+    font-size: 40px;
+}
+ 
+@media(max-width: 450px){
+    .Hero_6-content{
+        padding-top: 14%;
+        padding-bottom: 14%;
+    }
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2{
+        font-size: 26px;
+        margin-bottom: 18%;
+    }
+    #Hero_6-3 h2{
+        font-size: 26px;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_6-content{
+        padding-top: 18%;
+        padding-bottom: 18%;
+    }
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 76px;
+        margin-bottom: 30px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2{
+        font-size: 40px;
+        margin-bottom: 18%;
+    }
+    #Hero_6-3 h2{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 600px){
+    .Hero_6-content{
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 84px;
+        margin-bottom: 32px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 48px;
+        margin-bottom: 12px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2{
+        font-size: 48px;
+        margin-bottom: 20%;
+    }
+    #Hero_6-3 h2{
+        font-size: 48px;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_6-content{
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2, #Hero_6-3 h2{
+        font-size: 24px;
+        margin-bottom: auto;
+    }
+}
+
+@media(min-width: 992px){
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 28px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2, #Hero_6-3 h2{
+        font-size: 28px;
+    }
+}
+
+@media(min-width: 1200px){
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 76px;
+        margin-bottom: 24px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2, #Hero_6-3 h2{
+        font-size: 36px;
+    }
+}
+
+@media(min-width: 1400px){
+    #Hero_6-1 a i, #Hero_6-2 a i, #Hero_6-3 a i{
+        font-size: 84px;
+        margin-bottom: 30px;
+    }
+    #Hero_6-1 h1, #Hero_6-2 h1, #Hero_6-3 h1{
+        font-size: 38px;
+        margin-bottom: 14px;
+    }
+    #Hero_6-1 h2, #Hero_6-2 h2, #Hero_6-3 h2{
+        font-size: 38px;
+    }
+}
+
+/* Hero Section 6 End */
+
+/* Hero Section 7 Start */
+
+
+.Hero_7-content{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background: rgb(255, 255, 215);
+}
+
+.Hero_7-con h1{
+    font-size: 56px;
+    margin-bottom: 12px;
+}
+
+.Hero_7-con p{
+    width: 50%;
+    font-size: 22px;
+}
+
+.Hero_7-content .row{
+    margin-top: 5%;
+}
+
+#Hero_7-1, #Hero_7-2, #Hero_7-3{
+    padding: 8% 10%;
+}
+
+#Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+#Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+    font-size: 22px;
+    margin-left: 4px;
+}
+
+#Hero_7-1 a:hover, #Hero_7-2 a:hover, #Hero_7-3 a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+ 
+@media(max-width: 450px){
+    .Hero_7-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_7-con h1{
+        font-size: 34px;
+        margin-bottom: 8px;
+    }
+    .Hero_7-con p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .Hero_7-content .row{
+        margin-top: 12%;
+    }
+    #Hero_7-con-1, #Hero_7-con-2{
+        margin-bottom: 14%;
+    }
+    #Hero_7-1, #Hero_7-2, #Hero_7-3{
+        padding: 6% 8%;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 20px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 18px;
+        margin-left: 4px;
+    }
+}
+
+@media(min-width: 450px){
+    .Hero_7-content{
+        padding-top: 7%;
+        padding-bottom: 14%;
+    }
+    .Hero_7-con h1{
+        font-size: 54px;
+        margin-bottom: 12px;
+    }
+    .Hero_7-con p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .Hero_7-content .row{
+        margin-top: 12%;
+    }
+    #Hero_7-1, #Hero_7-2, #Hero_7-3{
+        padding: 7% 9%;
+    }
+    #Hero_7-con-1, #Hero_7-con-2{
+        margin-bottom: 14%;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 22px;
+        margin-bottom: 32px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 28px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 26px;
+        margin-left: 6px;
+    }
+}
+
+@media(min-width: 600px){
+    #Hero_7-1, #Hero_7-2, #Hero_7-3{
+        padding: 8% 10%;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        margin-bottom: 18px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 24px;
+        margin-bottom: 34px;
+    }
+}
+
+@media(min-width: 768px){
+    .Hero_7-content{
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .Hero_7-con h1{
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+    .Hero_7-con p{
+        width: 50%;
+        font-size: 12px;
+    }
+    .Hero_7-content .row{
+        margin-top: 4%;
+    }
+    #Hero_7-con-1, #Hero_7-con-2{
+        margin-bottom: auto;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 12px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 10px;
+        margin-left: 2px;
+    }
+}
+
+@media(min-width: 992px){
+    .Hero_7-con h1{
+        font-size: 38px;
+    }
+    .Hero_7-con p{
+        font-size: 16px;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 16px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 14px;
+        margin-left: 4px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Hero_7-con h1{
+        font-size: 52px;
+        margin-bottom: 10px;
+    }
+    .Hero_7-con p{
+        font-size: 20px;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 21px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 18px;
+        margin-left: 2px;
+    }
+}
+
+@media(min-width: 1400px){
+    .Hero_7-con h1{
+        font-size: 56px;
+    }
+    .Hero_7-con p{
+        font-size: 22px;
+    }
+    #Hero_7-1 h1, #Hero_7-2 h1, #Hero_7-3 h1{
+        font-size: 30px;
+    }
+    #Hero_7-1 h2, #Hero_7-2 h2, #Hero_7-3 h2{
+        font-size: 18px;
+    }
+    #Hero_7-1 p, #Hero_7-2 p, #Hero_7-3 p{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    #Hero_7-1 a, #Hero_7-2 a, #Hero_7-3 a{
+        font-size: 23px;
+    }
+    #Hero_7-1 a i, #Hero_7-2 a i, #Hero_7-3 a i{
+        font-size: 20px;
+        margin-left: 4px;
+    }
+}
+
+/* Hero Section 7 End */
+
+
+/* About Section Start */
+
+.About{
+    padding-top: 96px;
+    padding-bottom: 24px;
+    background-color: rgb(255, 255, 215);
+}
+
+@media(max-width: 450px){
+    .About{
+        padding-top: 56px;
+        padding-bottom: 0;
+    }
+    .About_con{
+        padding-bottom: 24px;
+    }
+}
+
+@media(min-width: 450px){
+    .About{
+        padding-top: 56px;
+        padding-bottom: 0;
+    }
+    .About_con{
+        padding-bottom: 24px;
+    }
+}
+
+@media(min-width: 1200px){
+    .About{
+        padding-top: 84px;
+        padding-bottom: 24px;
+    }
+    .About_con{
+        padding-bottom: 0;
+    }
+}
+
+/* About Section End */
+
+
+/* Service Section 1 Start */
+
+.Service-content{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    background-color: rgb(255, 255, 215);
+}
+
+.Service-con h1{
+    font-size: 56px;
+}
+
+.Service-con p{
+    width: 50%;
+    font-size: 21px;
+}
+
+.Service-content .row{
+    margin-top: 4%;
+}
+
+#Service-1 h1, #Service-2 h1, #Service-3 h1{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+#Service-1 p, #Service-2 p, #Service-3 p{
+    font-size: 20px;
+    text-align: center;
+}
+  
+@media(max-width: 450px){
+    .Service-content{
+        padding-top: 96px;
+        padding-bottom: 10%;
+    }
+    .Service-con h1{
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    .Service-con p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .Service-content .row{
+        margin-top: 36px;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 32px;
+        margin-top: 14px;
+        margin-bottom: 12px;
+    }
+    #Service-1 p, #Service-2 p{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    #Service-3 p{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 450px){
+    .Service-content{
+        padding-top: 96px;
+        padding-bottom: 10%;
+    }
+    .Service-con h1{
+        font-size: 48px;
+        margin-bottom: 8px;
+    }
+    .Service-con p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .Service-content .row{
+        margin-top: 40px;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    #Service-1 p, #Service-2 p{
+        font-size: 18px;
+        margin-bottom: 56px;
+    }
+    #Service-3 p{
+        font-size: 18px;
+    }
+}
+
+
+@media(min-width: 768px){
+    .Service-content{
+        padding-top: 92px;
+        padding-bottom: 6%;
+    }
+    .Service-con h1{
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .Service-con p{
+        width: 50%;
+        font-size: 14px;
+    }
+    .Service-content .row{
+        margin-top: 4%;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 20px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+    #Service-1 p, #Service-2 p, #Service-3 p{
+        font-size: 10px;
+        margin-bottom: auto;
+    }
+}
+
+@media(min-width: 992px){
+    .Service-content{
+        padding-bottom: 5%;
+    }
+
+    .Service-con h1{
+        font-size: 40px;
+    }
+    .Service-con p{
+        font-size: 16px;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 28px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    #Service-1 p, #Service-2 p, #Service-3 p{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Service-con h1{
+        font-size: 48px;
+    }
+    .Service-con p{
+        font-size: 18px;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 32px;
+    }
+    #Service-1 p, #Service-2 p, #Service-3 p{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 1400px){
+    .Service-content{
+        padding-top: 96px;
+    }
+    .Service-con h1{
+        font-size: 52px;
+    }
+    .Service-con p{
+        font-size: 20px;
+    }
+    .Service-content .row{
+        margin-top: 3%;
+    }
+    #Service-1 h1, #Service-2 h1, #Service-3 h1{
+        font-size: 36px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+    #Service-1 p, #Service-2 p, #Service-3 p{
+        font-size: 20px;
+    }
+}
+
+/* Service Section 1 End */
+
+
+
+/* Contact Section Start */
+
+.Contact{
+    padding-top: 108px;
+    padding-bottom: 36px;
+    background-color: rgb(255, 255, 215);
+}
+
+.Contact .bi{
+    color: #ff5722;
+}
+
+.Contact .btn-orange {
+    background-color: rgb(25, 135, 84);
+    color: #fff;
+}
+
+.Contact .btn-orange:hover {
+    background-color: rgb(23, 115, 75);
+    color: #fff;
+}
+
+@media(max-width: 450px){
+    .Contact{
+        padding-top: 56px;
+        padding-bottom: 0;
+    }
+}
+
+@media(min-width: 450px){
+    .Contact{
+        padding-top: 56px;
+        padding-bottom: 0;
+    }
+}
+
+@media(min-width: 600px){
+    .Contact{
+        padding-top: 64px;
+        padding-bottom: 8px;
+    }
+}
+
+@media(min-width: 992px){
+    .Contact{
+        padding-top: 84px;
+        padding-bottom: 24px;
+    }
+}
+
+
+@media(min-width: 1200px){
+    .Contact{
+        padding-top: 96px;
+        padding-bottom: 32px;
+    }
+}
+
+/* Contact Section End */
+
+
+/* Footer Section Start */
+
+.footer-content{
+    padding-top: 48px;
+    background-color: rgb(45, 45, 45);
+}
+
+.footer-content .container{
+    margin-bottom: 40px;
+}
+
+#footer-1 h1, #footer-2 h1{
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+#footer-1 p, #footer-2 p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#footer-1 p a, #footer-2 p a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-1 p a:hover, #footer-2 p a:hover{
+    text-underline-offset: 6px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+}
+
+#footer-3{
+    text-align: end;
+}
+
+#footer-3 h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#footer-3 p{
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.footer-con{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.footer-con input{
+    margin-left: 108px;
+    border-radius: 0;
+    padding: 14px;
+}
+
+.footer-con button{
+    border-radius: 0;
+}
+
+.footer-con button i{
+    font-size: 18px;
+    color: white;
+    padding: 8px;
+}
+
+.footer-icon a i{
+    color: black;
+    font-size: 32px;
+    background: white;
+    border-radius: 50%;
+}
+
+#footer-i1{
+    padding: 8px 10px;
+    margin-right: 11px;
+}
+
+#footer-i2{
+    padding: 8px 14px;
+    margin-right: 11px;
+}
+
+#footer-i3{
+    padding: 8px 8px;
+    margin-right: 11px;
+}
+
+#footer-i4{
+    padding: 8px 12px;
+}
+
+.footer-content #copy{
+    font-size: 18px;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+@media(max-width: 450px){
+    .footer-content{
+        padding-top: 10%;
+    }
+    #footer-1, #footer-2, #footer-3{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footer-1, #footer-2{
+        margin-bottom: 32px;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 16px;
+    }
+    #footer-3 h1{
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    #footer-3 p{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .footer-con{
+        margin-bottom: 24px;
+    }
+    .footer-con input{
+        margin-left: auto;
+        padding: 10px 16px;
+    }
+    .footer-con button i{
+        font-size: 24px;
+        padding: 10px;
+    }
+    .footer-icon a i{
+        font-size: 24px;
+    }
+    #footer-i1, #footer-i2, #footer-i3{
+        margin-right: 8px;
+    }
+    .footer-content #copy{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 450px){
+    .footer-content{
+        padding-top: 10%;
+    }
+    #footer-1, #footer-2, #footer-3{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #footer-1, #footer-2{
+        margin-bottom: 40px;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 18px;
+    }
+    #footer-3 h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    #footer-3 p{
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+    .footer-con{
+        margin-bottom: 36px;
+    }
+    .footer-con input{
+        margin-left: auto;
+        padding: 14px;
+    }
+    .footer-con button i{
+        font-size: 24px;
+        padding: 12px;
+    }
+    .footer-icon a i{
+        font-size: 40px;
+    }
+    #footer-i1, #footer-i2, #footer-i3{
+        margin-right: 14px;
+    }
+    .footer-content #copy{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 600px){
+    #footer-1, #footer-2, #footer-3{
+        width: 100%;
+        text-align: center;
+    }
+    #footer-1, #footer-2{
+        margin-bottom: 48px;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 48px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 20px;
+    }
+    #footer-3 h1{
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    #footer-3 p{
+        font-size: 20px;
+        margin-bottom: 36px;
+    }
+    .footer-con{
+        margin-bottom: 40px;
+    }
+    .footer-con input{
+        padding: 18px;
+    }
+    .footer-con button i{
+        font-size: 28px;
+        padding: 14px;
+    }
+    .footer-icon a i{
+        font-size: 40px;
+    }
+    #footer-i1{
+        padding: 12px;
+        margin-right: 20px;
+    }
+    #footer-i2{
+        padding: 12px 20px;
+        margin-right: 20px;
+    }
+    #footer-i3{
+        padding: 12px;
+        margin-right: 20px;
+    }
+    #footer-i4{
+        padding: 12px;
+    }
+    .footer-content #copy{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 768px){
+    .footer-content{
+        padding-top: 32px;
+    }
+    .footer-content .container {
+        margin-bottom: 24px;
+    }
+    #footer-1, #footer-2, #footer-3{
+        width: auto;
+        margin: 0;
+        margin-right: auto;
+        text-align: start;
+    }
+    #footer-3{
+        text-align: end;
+    }
+    #footer-1, #footer-2{
+        align-items: start;
+        margin-bottom: 0;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 9px;
+    }
+    #footer-3 h1{
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    #footer-3 p{
+        font-size: 9px;
+        margin-bottom: 14px;
+    }
+    .footer-con{
+        margin-bottom: 16px;
+    }
+    .footer-con input{
+        padding: 3px;
+    }
+    .footer-con button i{
+        font-size: 16px;
+        padding: 3px;
+    }
+    .footer-icon a i{
+        font-size: 20px;
+    }
+    #footer-i1{
+        padding: 6px 8px;
+        margin-right: 6px;
+    }
+    #footer-i2{
+        padding: 6px 10px;
+        margin-right: 6px;
+    }
+    #footer-i3{
+        padding: 6px;
+        margin-right: 6px;
+    }
+    #footer-i4{
+        padding: 6px 8px;
+    }
+    .footer-content #copy{
+        padding: 14px 0;
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 992px){
+    #footer-1 h1, #footer-2 h1{
+        font-size: 20px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 10px;
+    }
+    #footer-3 h1{
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    #footer-3 p{
+        font-size: 10px;
+        margin-bottom: 16px;
+    }
+    .footer-con{
+        margin-bottom: 12px;
+    }
+    .footer-con input{
+        margin-left: 48px;
+        padding: 5px;
+    }
+    .footer-con button i{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .footer-icon a i{
+        font-size: 24px;
+    }
+    #footer-i1, #footer-i2, #footer-i3{
+        margin-right: 6px;
+    }
+    .footer-content #copy{
+        padding: 15px 0;
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 1200px){
+    .footer-content{
+        padding-top: 40px;
+    }
+    .footer-content .container{
+        margin-bottom: 32px;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 12px;
+    }
+    #footer-3 h1{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    #footer-3 p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .footer-con{
+        margin-bottom: 16px;
+    }
+    .footer-con input{
+        margin-left: 72px;
+        padding: 6px;
+    }
+    .footer-con button i{
+        font-size: 20px;
+        padding: 6px;
+    }
+    .footer-icon a i{
+        font-size: 28px;
+    }
+    #footer-i1{
+        padding: 8px 12px;
+        margin-right: 6px;
+    }
+    #footer-i2{
+        padding: 8px 14px;
+        margin-right: 6px;
+    }
+    #footer-i3{
+        padding: 8px;
+        margin-right: 6px;
+    }
+    #footer-i4{
+        padding: 8px 12px;
+    }
+    .footer-content #copy{
+        padding: 16px 0;
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 1400px){
+    .footer-content{
+        padding-top: 44px;
+    }
+    .footer-content .container{
+        margin-bottom: 36px;
+    }
+    #footer-1 h1, #footer-2 h1{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #footer-1 p, #footer-2 p{
+        font-size: 14px;
+    }
+    #footer-3 h1{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    #footer-3 p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .footer-con{
+        margin-bottom: 18px;
+    }
+    .footer-con input{
+        margin-left: 84px;
+        padding: 8px;
+    }
+    .footer-con button i{
+        font-size: 24px;
+        padding: 8px;
+    }
+    .footer-icon a i{
+        font-size: 32px;
+    }
+    #footer-i1{
+        margin-right: 8px;
+    }
+    #footer-i2{
+        margin-right: 8px;
+    }
+    #footer-i3{
+        margin-right: 8px;
+    }
+    .footer-content #copy{
+        padding: 18px 0;
+        font-size: 18px;
+    }
+}
+
+
+/* Footer section End */
