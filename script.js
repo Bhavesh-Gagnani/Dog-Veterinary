@@ -7,16 +7,19 @@ const foot_input = document.getElementById("foot_input");
 const foot_icon = document.getElementById("foot_icon");
 
 buttons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-        const price = btn.getAttribute("value");
-        btn.disabled = true;
-        btn.textContent = "Processing...";
+  const basePrice = Number(btn.getAttribute("value"));
+  let currentTotal = 0;
 
-        setTimeout(() => {
-        btn.disabled = false;
-        btn.textContent = `${price}`;
-        }, 2000);
-    });
+  btn.addEventListener("click", () => {
+      btn.disabled = true;
+      btn.textContent = "Processing...";
+
+      setTimeout(() => {
+          currentTotal += basePrice;
+          btn.textContent = `$${currentTotal}`;
+          btn.disabled = false;
+      }, 2000);
+  });
 });
 
 process.forEach((btn) => {
